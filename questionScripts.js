@@ -120,60 +120,142 @@ function movieQuestion12(){
 }
 
 
-
+function create(num, name, link) {
+    var id = "movie" + num;
+    document.getElementById(id).innerHTML = name;
+    //var a = document.createElement("a");
+    //var movie = document.getElementById(id);
+    document.getElementById(id).href = link;
+    //a.setAttribute('href', link);
+    //movie.appendChild(a);
+}
 
 //they like rom coms
 function answer0(){
-
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "It Happened One Night", "https://www.youtube.com/embed/Kd509cLN-9U");
+    create(2, "The Bigh Sick", "https://www.youtube.com/embed/jcD0Daqc3Yw");
+    create(3, "The Philadelphia Story", "https://www.youtube.com/embed/oCfuPPR7wnQ");
+    create(4, "ENOUGH SAID", "https://www.youtube.com/embed/R09EnVNGnio");
+    create(5, "CRAZY RICH ASIANS", "https://www.youtube.com/embed/ZQ-YX-5bAs0");
 }
 
 //they like rom dramas
 function answer1(){
-    
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "Blue Valentine", "https://www.youtube.com/embed/aILx69WrRhQ");
+    create(2, "DEAR JOHN", "https://www.youtube.com/embed/r0fq5dd0C60");
+    create(3, "The Spectacular Now", "https://www.youtube.com/embed/XDTBLSkUmYk");
+    create(4, "The Notebook", "https://www.youtube.com/embed/FC6biTjEyZw");
+    create(5, "THE VOW", "https://www.youtube.com/embed/PcL24s-S6ns");
 }
 
 //they like crime drama
 function answer2(){
-
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "Spotlight", "https://www.youtube.com/embed/EwdCIpbTN5g");
+    create(2, "WIND RIVER", "https://www.youtube.com/embed/s7WuKdVhrmA");
+    create(3, "The Departed", "https://www.youtube.com/embed/iojhqm0JTW4");
+    create(4, "Goodfellas", "https://www.youtube.com/embed/qo5jJpHtI1Y");
+    create(5, "Se7en", "https://www.youtube.com/watch?v=znmZoVkCjpI");
 }
 
 //they like mystery action
 function answer3(){
-    
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "Inception", "https://www.youtube.com/embed/YoHD9XEInc0");
+    create(2, "Sherlock Holmes", "https://www.youtube.com/embed/Egcx63-FfTE");
+    create(3, "SOURCE CODE", "https://www.youtube.com/embed/mnJegNyAb1w");
+    create(4, "Unknown", "https://www.youtube.com/embed/vSXUgkCjdBM");
+    create(5, "Eagle Eye", "https://www.youtube.com/embed/_wkqo_Rd3_Q");
 }
 
 //they like action spy 
 function answer4(){
-    
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "Mission: Impossible(1996)", "https://www.youtube.com/embed/Ohws8y572KE");
+    create(2, "Spy", "https://www.youtube.com/embed/YrY3v1eDmQY");
+    create(3, "Body of Lies", "https://www.youtube.com/embed/bxQW8NGNb60");
+    create(4, "Casino Royale", "https://www.youtube.com/embed/36mnx8dBbGE");
+    create(5, "Salt", "https://www.youtube.com/embed/QZ40WlshNwU");
 }
 
 //they like action superhero 
 function answer5(){
-    
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "The Dark Knight", "https://www.youtube.com/embed/EXeTwQWrcwY");
+    create(2, "Avengers: Endgame", "https://www.youtube.com/embed/TcMBFSGVi1c");
+    create(3, "SPIDER-MAN: INTO THE SPIDER-VERSE", "https://www.youtube.com/embed/g4Hbz2jLxvQ");
+    create(4, "Iron Man(2008)", "https://www.youtube.com/embed/8ugaeA-nMTc");
+    create(5, "Captain America", "https://www.youtube.com/embed/JerVrbLldXw");
 }
 
 //they like action adventure 
 function answer6(){
-    
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "It Happened One Night", "https://www.youtube.com/embed/Kd509cLN-9U");
+    create(2, "The Bigh Sick", "https://www.youtube.com/embed/jcD0Daqc3Yw");
+    create(3, "The Philadelphia Story", "https://www.youtube.com/embed/oCfuPPR7wnQ");
+    create(4, "ENOUGH SAID", "https://www.youtube.com/embed/R09EnVNGnio");
+    create(5, "CRAZY RICH ASIANS", "https://www.youtube.com/embed/ZQ-YX-5bAs0");
 }
 
 //they like sci-fi robots space apocalyptic movies 
 function answer7(){
-
-
-    
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "It Happened One Night", "https://www.youtube.com/embed/Kd509cLN-9U");
+    create(2, "The Bigh Sick", "https://www.youtube.com/embed/jcD0Daqc3Yw");
+    create(3, "The Philadelphia Story", "https://www.youtube.com/embed/oCfuPPR7wnQ");
+    create(4, "ENOUGH SAID", "https://www.youtube.com/embed/R09EnVNGnio");
+    create(5, "CRAZY RICH ASIANS", "https://www.youtube.com/embed/ZQ-YX-5bAs0");
 }
 
 //they like space, history, drama moveis like Hidden Figures, 
 function answer8(){
-
-
-    
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "It Happened One Night", "https://www.youtube.com/embed/Kd509cLN-9U");
+    create(2, "The Bigh Sick", "https://www.youtube.com/embed/jcD0Daqc3Yw");
+    create(3, "The Philadelphia Story", "https://www.youtube.com/embed/oCfuPPR7wnQ");
+    create(4, "ENOUGH SAID", "https://www.youtube.com/embed/R09EnVNGnio");
+    create(5, "CRAZY RICH ASIANS", "https://www.youtube.com/embed/ZQ-YX-5bAs0");    
 }
 
 //they may like moveis with sci-fi and inception stuff like inception
 function answer9(){
-
-
-    
+    document.body.style.backgroundColor = "white";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "It Happened One Night", "https://www.youtube.com/embed/Kd509cLN-9U");
+    create(2, "The Bigh Sick", "https://www.youtube.com/embed/jcD0Daqc3Yw");
+    create(3, "The Philadelphia Story", "https://www.youtube.com/embed/oCfuPPR7wnQ");
+    create(4, "ENOUGH SAID", "https://www.youtube.com/embed/R09EnVNGnio");
+    create(5, "CRAZY RICH ASIANS", "https://www.youtube.com/embed/ZQ-YX-5bAs0");
 }
