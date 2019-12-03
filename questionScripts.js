@@ -103,7 +103,7 @@ function movieQuestion8(){
 function movieQuestion10(){
 
     document.body.style.backgroundColor = "DarkViolet";
-    document.getElementById("questionToAsk").innerHTML = "Do you like space stuff?";
+    document.getElementById("questionToAsk").innerHTML = "Do you spooky AI apocalypses?";
     document.getElementById("btnArea").innerHTML = "<button onclick = 'answer7()'>Yes</button><button onclick = 'movieQuestion12()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/EoQuVnKhxaM";
 
