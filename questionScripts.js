@@ -23,7 +23,7 @@ function movieQuestion2(){
 
     document.body.style.backgroundColor = "Brown ";
     document.getElementById("questionToAsk").innerHTML = "I see. You probably do not like romance movies much. How about this one?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion5()'>Yes</button><button onclick = 'movieQuestion6()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion16()'>Yes</button><button onclick = 'movieQuestion6()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/Egcx63-FfTE";
 
 }
@@ -41,18 +41,32 @@ function movieQuestion3(){
 function movieQuestion4(){
 
     document.body.style.backgroundColor = "HotPink";
-    document.getElementById("questionToAsk").innerHTML = "I see. You probably do not like romance movies much. How about this one?";
+    document.getElementById("questionToAsk").innerHTML = "I promise i'm not a mind reader. How about this one?";
     document.getElementById("btnArea").innerHTML = "<button onclick = 'answer1()'>Yes</button><button onclick = 'answer0()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/0pdqf4P9MB8";
 
 }
 
+
+//see mystery thriller
+function movieQuestion16(){
+
+    document.body.style.backgroundColor = "HotPink";
+    document.getElementById("questionToAsk").innerHTML = "Do you like this one too?";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion5()'>Yes</button><button onclick = 'answer3()'>No</button>";
+    document.getElementById("video").src = "https://www.youtube.com/embed/lfqHb6INj3w";
+
+
+
+}
+
+
 //see if they like crime drama. if they don't give a list of mystery action otherwise a list of crime drama.
 function movieQuestion5(){
 
     document.body.style.backgroundColor = "GoldenRod";
-    document.getElementById("questionToAsk").innerHTML = "Let's narrow some genres in this category then. Do you like this trailer?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer2()'>Yes</button><button onclick = 'answer3()'>No</button>";
+    document.getElementById("questionToAsk").innerHTML = "Let's narrow this genre one more time. Do you like this trailer?";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer2()'>Yes</button><button onclick = 'answer14()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/BV_nssS6Zkg";
 
 }
@@ -119,6 +133,49 @@ function movieQuestion12(){
 
 }
 
+//see if they like horror films
+function movieQuestion11(){
+
+    document.body.style.backgroundColor = "Tomato";
+    document.getElementById("questionToAsk").innerHTML = "OK, let's try something spooky?";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion13()'>Yes</button><button onclick = 'final()'>No</button>";
+    document.getElementById("video").src = "https://www.youtube.com/embed/k10ETZ41q5o";
+
+}
+
+//see if they like horror comedy
+function movieQuestion13(){
+
+    document.body.style.backgroundColor = "Tomato";
+    document.getElementById("questionToAsk").innerHTML = "What about this?";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion14()'>Yes</button><button onclick = 'movieQuestion15()'>No</button>";
+    document.getElementById("video").src = "https://www.youtube.com/embed/8m9EVP8X7N8";
+
+}
+
+//see if they like horror fantasy
+function movieQuestion14(){
+
+    document.body.style.backgroundColor = "Tomato";
+    document.getElementById("questionToAsk").innerHTML = "Interesting. Do you like this then?";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer10()'>Yes</button><button onclick = 'answer13()'>No</button>";
+    document.getElementById("video").src = "https://www.youtube.com/embed/HUjZHFNMlOM";
+
+}
+
+
+//see horror and supernatural 
+function movieQuestion15(){
+
+    document.body.style.backgroundColor = "Tomato";
+    document.getElementById("questionToAsk").innerHTML = "Do you like this?";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer11()'>Yes</button><button onclick = 'answer12()'>No</button>";
+    document.getElementById("video").src = "https://www.youtube.com/embed/zuZnRUcoWos";
+
+
+
+}
+
 
 
 
@@ -176,4 +233,47 @@ function answer9(){
 
 
     
+}
+
+//they like horror comedy fantasy
+function answer10(){
+    
+
+
+}
+
+//they like horror supernatural 
+function answer11(){
+    
+
+
+}
+
+//they like horror mystery 
+function answer12(){
+    
+
+
+}
+
+//they like horror comedies like scary movie lol
+function answer13(){
+    
+
+
+}
+
+//they like mystery trillers
+function answer14(){
+    
+
+
+}
+
+
+//they didnt like any of the trailer so give them a list of our favorite moveis to check out
+function final(){
+
+
+
 }
