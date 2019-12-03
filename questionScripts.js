@@ -88,16 +88,36 @@ function movieQuestion9(){
 }
 
 
-//see if they like action
+//see if they like sci-fi movies
 function movieQuestion8(){
 
     document.body.style.backgroundColor = "DarkViolet";
     document.getElementById("questionToAsk").innerHTML = "Do you like space stuff?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion7()'>Yes</button><button onclick = 'movieQuestion8()'>No</button>";
-    document.getElementById("video").src = "https://www.youtube.com/embed/kl8F-8tR8to";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion10()'>Yes</button><button onclick = 'movieQuestion11()'>No</button>";
+    document.getElementById("video").src = "https://www.youtube.com/embed/2LqzF5WauAw";
 
 }
 
+
+//see if they like sci-fi robots
+function movieQuestion10(){
+
+    document.body.style.backgroundColor = "DarkViolet";
+    document.getElementById("questionToAsk").innerHTML = "Do you like space stuff?";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer7()'>Yes</button><button onclick = 'movieQuestion12()'>No</button>";
+    document.getElementById("video").src = "https://www.youtube.com/embed/EoQuVnKhxaM";
+
+}
+
+//see if they like sci-fi drama then 
+function movieQuestion12(){
+
+    document.body.style.backgroundColor = "DarkViolet";
+    document.getElementById("questionToAsk").innerHTML = "My bad, let's take a step back.?";
+    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer8()'>Yes</button><button onclick = 'answer9()'>No</button>";
+    document.getElementById("video").src = "https://www.youtube.com/embed/5wfrDhgUMGI";
+
+}
 
 
 
@@ -137,3 +157,23 @@ function answer6(){
     
 }
 
+//they like sci-fi robots space apocalyptic movies 
+function answer7(){
+
+
+    
+}
+
+//they like space, history, drama moveis like Hidden Figures, 
+function answer8(){
+
+
+    
+}
+
+//they may like moveis with sci-fi and inception stuff like inception
+function answer9(){
+
+
+    
+}
