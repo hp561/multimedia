@@ -1,7 +1,5 @@
-
-
 function movieQuestion(){
-
+   
     document.body.style.backgroundColor = "lightBlue";
     document.getElementById("questionToAsk").innerHTML = "Does this clip intrests you?";
     document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion1()'>Yes</button><button onclick = 'movieQuestion2()'>No</button>";
@@ -117,6 +115,13 @@ function movieQuestion12(){
     document.getElementById("btnArea").innerHTML = "<button onclick = 'answer8()'>Yes</button><button onclick = 'answer9()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/5wfrDhgUMGI";
 
+}
+
+function create(num, name, link) {
+    var id = "movie" + num;
+    document.getElementById(id).innerHTML = name;
+    document.getElementById(id).href = link;
+    document.getElementById("movieList").style.visibility = "visible"
 }
 
 //they like rom coms
@@ -246,5 +251,5 @@ function answer9(){
     create(2, "Total Recall(1990)", "https://www.youtube.com/embed/WFMLGEHdIjE");
     create(3, "Interstellar", "https://www.youtube.com/embed/2LqzF5WauAw");
     create(4, "TRON: LEGACY", "https://www.youtube.com/embed/L9szn1QQfas");
-    create(5, "The Prestige", "https://www.youtube.com/embed/ijXruSzfGEc");    
+    create(5, "The Prestige", "https://www.youtube.com/embed/ijXruSzfGEc");
 }

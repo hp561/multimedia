@@ -5,17 +5,16 @@
 <meta charset="utf-8">
 <title>Example ES</title>
 <script src="questionScripts.js"></script>
+<link rel="stylesheet" href="designs.css" type="text/css">
 </head>
 
 <body>
-
   <div id="container">
-
     <h1 id="majorTitle">Movie Recommendation ES</h1><br>
-
+    <button id="homeButton" onClick="window.location.reload();">Home</button>
     <div id="questionArea">
-
         <h2 id="questionToAsk"></h2><br>
+<<<<<<< HEAD
         <ol id="movieList">
           <li >
             <a id="movie1" href=""> </a>
@@ -32,27 +31,33 @@
           <li>
             <a id="movie5" href=""> </a>
           </li>  
+=======
+        <ol id="movieList" style="text-align: left;  position: relative; left: 500px">
+          <li >
+            <a id="movie1" href=""> </a>
+          </li><br>
+          <li>
+            <a id="movie2" href=""> </a>
+          </li><br>
+          <li>
+            <a id="movie3" href=""> </a>
+          </li><br>
+          <li>
+            <a id="movie4" href=""> </a>
+          </li><br>
+          <li>
+            <a id="movie5" href=""> </a>
+          </li><br>
+>>>>>>> develop
         </ol>
         <iframe id="video" width="720" height="405" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
         <br>
-
     </div> <!--Questions will go here-->
-
         <div id="btnArea">
-
             <input type="button" class="next" id="initialButton" value="Start" onclick="movieQuestion()">
         </div>
-
-
     </div>
-
-
-
-
-
-
   </div>
 </body>
-
 </html>
