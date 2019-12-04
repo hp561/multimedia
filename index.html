@@ -19,7 +19,19 @@
         <h2 id="questionToAsk"></h2><br>
 
 
-        <ol id="movieList" style="text-align: left;  position: relative; left: 720px">
+        
+        <iframe id="video" width="720" height="405" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <br>
+
+    </div> <!--Questions will go here-->
+
+        <div id="btnArea">
+
+            <input type="button" class="next" id="initialButton" value="Start" onclick="movieQuestion()">
+        </div>
+
+<ol id="movieList" style="text-align: left;  position: relative; left: 720px">
           <li >
             <a id="movie1" href=""> </a>
           </li><br>
@@ -36,22 +48,9 @@
             <a id="movie5" href=""> </a>
           </li><br>
         </ol>
-        <iframe id="video" width="720" height="405" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-        <br>
-
-    </div> <!--Questions will go here-->
-
-        <div id="btnArea">
-
-            <input type="button" class="next" id="initialButton" value="Start" onclick="movieQuestion()">
-        </div>
-
+		
 
     </div>
-
-
-
 
 
 

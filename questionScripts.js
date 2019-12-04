@@ -3,7 +3,7 @@ function movieQuestion(){
 
     document.body.style.backgroundColor = "lightBlue";
     document.getElementById("questionToAsk").innerHTML = "Does this clip intrests you?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion1()'>Yes</button><button onclick = 'movieQuestion2()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'movieQuestion1()'>Yes</button><button id='noButton' onclick = 'movieQuestion2()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/Eh993__rOxA?autoplay=1";
 
 }
@@ -12,7 +12,7 @@ function movieQuestion1(){
 
     document.body.style.backgroundColor = "Crimson";
     document.getElementById("questionToAsk").innerHTML = "It seems you may like romance. Do you like this clip?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion3()'>Yes</button><button onclick = 'movieQuestion4()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'movieQuestion3()'>Yes</button><button id='noButton' onclick = 'movieQuestion4()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/s7a_9CggQuE?autoplay=1";
 
 }
@@ -22,7 +22,7 @@ function movieQuestion2(){
 
     document.body.style.backgroundColor = "Brown ";
     document.getElementById("questionToAsk").innerHTML = "I see. You probably do not like romance movies much. How about this one?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion16()'>Yes</button><button onclick = 'movieQuestion6()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'movieQuestion16()'>Yes</button><button id='noButton' onclick = 'movieQuestion6()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/Egcx63-FfTE?autoplay=1";
 
 }
@@ -32,7 +32,7 @@ function movieQuestion3(){
 
     document.body.style.backgroundColor = "DeepPink";
     document.getElementById("questionToAsk").innerHTML = "Hmmm. I think I almost got it. What about this clip?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer0()'>Yes</button><button onclick = 'answer1()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'answer0()'>Yes</button><button id='noButton' onclick = 'answer1()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/Z2lYA7L7PZY?autoplay=1";
 
 }
@@ -41,7 +41,7 @@ function movieQuestion4(){
 
     document.body.style.backgroundColor = "HotPink";
     document.getElementById("questionToAsk").innerHTML = "I promise i'm not a mind reader. How about this one?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer1()'>Yes</button><button onclick = 'answer0()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'answer1()'>Yes</button><button id='noButton' onclick = 'answer0()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/0pdqf4P9MB8?autoplay=1";
 
 }
@@ -52,7 +52,7 @@ function movieQuestion16(){
 
     document.body.style.backgroundColor = "HotPink";
     document.getElementById("questionToAsk").innerHTML = "Do you like this one too?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion5()'>Yes</button><button onclick = 'answer3()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'movieQuestion5()'>Yes</button><button id='noButton' onclick = 'answer3()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/lfqHb6INj3w?autoplay=1";
 
 }
@@ -63,7 +63,7 @@ function movieQuestion5(){
 
     document.body.style.backgroundColor = "GoldenRod";
     document.getElementById("questionToAsk").innerHTML = "Let's narrow this genre one more time. Do you like this trailer?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer2()'>Yes</button><button onclick = 'answer14()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'answer2()'>Yes</button><button id='noButton' onclick = 'answer14()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/BV_nssS6Zkg?autoplay=1";
 
 }
@@ -73,7 +73,7 @@ function movieQuestion6(){
 
     document.body.style.backgroundColor = "Cyan";
     document.getElementById("questionToAsk").innerHTML = "Maybe that wasn't your cup of tea. How about this clip?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion7()'>Yes</button><button onclick = 'movieQuestion8()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'movieQuestion7()'>Yes</button><button id='noButton' onclick = 'movieQuestion8()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/kl8F-8tR8to?autoplay=1";
 
 }
@@ -83,7 +83,7 @@ function movieQuestion7(){
 
     document.body.style.backgroundColor = "#19ffff";
     document.getElementById("questionToAsk").innerHTML = "Hmmm ok ok. I see you like action stuff. Does this excite you?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer4()'>Yes</button><button onclick = 'movieQuestion9()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'answer4()'>Yes</button><button id='noButton' onclick = 'movieQuestion9()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/7GqClqvlObY?autoplay=1";
 
 }
@@ -93,7 +93,7 @@ function movieQuestion9(){
 
     document.body.style.backgroundColor = "##e6ffff";
     document.getElementById("questionToAsk").innerHTML = "Do you want to be a superhero, too?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer5()'>Yes</button><button onclick = 'answer6()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'answer5()'>Yes</button><button id='noButton' onclick = 'answer6()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/8wNgphPi5VM?autoplay=1";
 
 }
@@ -104,7 +104,7 @@ function movieQuestion8(){
 
     document.body.style.backgroundColor = "DarkViolet";
     document.getElementById("questionToAsk").innerHTML = "Do you like space stuff?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion10()'>Yes</button><button onclick = 'movieQuestion11()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'movieQuestion10()'>Yes</button><button id='noButton' onclick = 'movieQuestion11()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/2LqzF5WauAw?autoplay=1";
 
 }
@@ -115,7 +115,7 @@ function movieQuestion10(){
 
     document.body.style.backgroundColor = "DarkViolet";
     document.getElementById("questionToAsk").innerHTML = "Do you spooky AI apocalypses?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer7()'>Yes</button><button onclick = 'movieQuestion12()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'answer7()'>Yes</button><button id='noButton' onclick = 'movieQuestion12()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/EoQuVnKhxaM?autoplay=1";
 
 }
@@ -125,7 +125,7 @@ function movieQuestion12(){
 
     document.body.style.backgroundColor = "DarkViolet";
     document.getElementById("questionToAsk").innerHTML = "My bad, let's take a step back.?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer8()'>Yes</button><button onclick = 'answer9()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'answer8()'>Yes</button><button id='noButton' onclick = 'answer9()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/5wfrDhgUMGI?autoplay=1";
 
 }
@@ -135,7 +135,7 @@ function movieQuestion11(){
 
     document.body.style.backgroundColor = "Tomato";
     document.getElementById("questionToAsk").innerHTML = "OK, let's try something spooky?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion13()'>Yes</button><button onclick = 'final()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'movieQuestion13()'>Yes</button><button id='noButton' onclick = 'final()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/k10ETZ41q5o?autoplay=1";
 
 }
@@ -145,7 +145,7 @@ function movieQuestion13(){
 
     document.body.style.backgroundColor = "Tomato";
     document.getElementById("questionToAsk").innerHTML = "What about this?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion14()'>Yes</button><button onclick = 'movieQuestion15()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'movieQuestion14()'>Yes</button><button id='noButton' onclick = 'movieQuestion15()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/8m9EVP8X7N8?autoplay=1";
 
 }
@@ -155,7 +155,7 @@ function movieQuestion14(){
 
     document.body.style.backgroundColor = "Tomato";
     document.getElementById("questionToAsk").innerHTML = "Interesting. Do you like this then?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer10()'>Yes</button><button onclick = 'answer13()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'answer10()'>Yes</button><button id='noButton' onclick = 'answer13()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/HUjZHFNMlOM?autoplay=1";
 
 }
@@ -166,7 +166,7 @@ function movieQuestion15(){
 
     document.body.style.backgroundColor = "Tomato";
     document.getElementById("questionToAsk").innerHTML = "Do you like this?";
-    document.getElementById("btnArea").innerHTML = "<button onclick = 'answer11()'>Yes</button><button onclick = 'answer12()'>No</button>";
+    document.getElementById("btnArea").innerHTML = "<button id='yesButton' onclick = 'answer11()'>Yes</button><button id='noButton' onclick = 'answer12()'>No</button>";
     document.getElementById("video").src = "https://www.youtube.com/embed/zuZnRUcoWos?autoplay=1";
 
 
@@ -324,85 +324,43 @@ function answer9(){
 
 //they like horror comedy fantasy
 function answer10(){
-    document.getElementById("questionToAsk").style.color = "white";
-    document.body.style.backgroundColor = "#42f572";
-    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
-    document.getElementById("btnArea").style.visibility = 'hidden';
-    document.getElementById("video").src = "";
-    create(1, "Gremlins", "https://www.youtube.com/embed/XBEVwaJEgaA");
-    create(2, "Army Of Darkness", "https://www.youtube.com/embed/UHZQEtG8xYo");
-    create(3, "Shaun of the Dead", "https://www.youtube.com/embed/LIfcaZ4pC-4");
-    create(4, "Krampus", "https://www.youtube.com/embed/h6cVyoMH4QE");
-    create(5, "Dead Snow: Red vs. Dead", "https://www.youtube.com/embed/e80EOZnHpLQ");
+
+
+
 }
 
 //they like horror supernatural
 function answer11(){
-    document.getElementById("questionToAsk").style.color = "white";
-    document.body.style.backgroundColor = "#42f572";
-    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
-    document.getElementById("btnArea").style.visibility = 'hidden';
-    document.getElementById("video").src = "";
-    create(1, "It Follows", "https://www.youtube.com/embed/HkZYbOH0ujw");
-    create(2, "IT CHAPTER TWO", "https://www.youtube.com/embed/xhJ5P7Up3jA");
-    create(3, "Sinister", "https://www.youtube.com/embed/_kbQAJR9YWQ");
-    create(4, "It Trailer", "https://www.youtube.com/embed/hAUTdjf9rko");
-    create(5, "The Witch", "https://www.youtube.com/embed/iQXmlf3Sefg");
+
+
+
 }
 
 //they like horror mystery
 function answer12(){
-    document.getElementById("questionToAsk").style.color = "white";
-    document.body.style.backgroundColor = "#42f572";
-    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
-    document.getElementById("btnArea").style.visibility = 'hidden';
-    document.getElementById("video").src = "";
-    create(1, "mother!", "https://www.youtube.com/embed/XpICoc65uh0");
-    create(2, "Get Out", "https://www.youtube.com/embed/DzfpyUB60YY");
-    create(3, "Orphan", "https://www.youtube.com/embed/2ywOPNNii9w");
-    create(4, "The Invitation", "https://www.youtube.com/embed/gIZgwvtFxMY");
-    create(5, "Triangle", "https://www.youtube.com/embed/9aCdzjCftgs");
+
+
+
 }
 
 //they like horror comedies like scary movie lol
 function answer13(){
-    document.getElementById("questionToAsk").style.color = "white";
-    document.body.style.backgroundColor = "#42f572";
-    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
-    document.getElementById("btnArea").style.visibility = 'hidden';
-    document.getElementById("video").src = "";
-    create(1, "", "");
-    create(2, "", "");
-    create(3, "", "");
-    create(4, "", "");
-    create(5, "", "");
+
+
+
 }
 
 //they like mystery trillers
 function answer14(){
-    document.getElementById("questionToAsk").style.color = "white";
-    document.body.style.backgroundColor = "#42f572";
-    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
-    document.getElementById("btnArea").style.visibility = 'hidden';
-    document.getElementById("video").src = "";
-    create(1, "Scary Movie", "https://www.youtube.com/embed/_dktIVAfjzY");
-    create(2, "Happy Death Day", "https://www.youtube.com/embed/1NTaDm3atkc");
-    create(3, "The Final Girls", "https://www.youtube.com/embed/zreNh78kTjg");
-    create(4, "Little Evil", "https://www.youtube.com/embed/jkQjUMVpmZA");
-    create(5, "ZOMBIELAND: DOUBLE TAP", "https://www.youtube.com/watch?v=ZlW9yhUKlkQ");
+
+
+
 }
 
 
 //they didnt like any of the trailer so give them a list of our favorite moveis to check out
 function final(){
-    document.getElementById("questionToAsk").style.color = "white";
-    document.body.style.backgroundColor = "#42f572";
-    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
-    document.getElementById("btnArea").style.visibility = 'hidden';
-    document.getElementById("video").src = "";
-    create(1, "Shaolin Soccer", "https://www.youtube.com/embed/6FAaOwNnHTA");
-    create(2, "Jackass", "https://www.youtube.com/embed/KwFZkLucUb0");
-    create(3, "Hannah Montana: The Movie", "https://www.youtube.com/embed/JBeG5D1Nclw");
-    create(4, "The Lizzie McGuire Movie", "https://www.youtube.com/embed/eIm8g4IA_1Y");
-    create(5, "Furious 7", "https://www.youtube.com/embed/yISKeT6sDOg");
+
+
+
 }
