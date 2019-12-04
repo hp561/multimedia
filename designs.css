@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 #questionToAsk {
   font-family: "URW Chancery L", cursive;
 }
@@ -11,9 +13,15 @@
   font-family: "URW Chancery L", cursive;
 
 }
+
+
 #movieList{
   visibility: hidden;
-
+  list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+  text-align:left;
+  font: 20px arial, sans-serif;
+  
+  margin-right: 80px;
 }
 #homeButton{
   box-shadow:inset 0px 1px 0px 0px #97c4fe;
@@ -78,7 +86,6 @@
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-
 	font-family:Arial;
 	font-size:15px;
 	font-weight:bold;
