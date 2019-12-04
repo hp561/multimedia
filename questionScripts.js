@@ -1,7 +1,5 @@
-
-
 function movieQuestion(){
-
+   
     document.body.style.backgroundColor = "lightBlue";
     document.getElementById("questionToAsk").innerHTML = "Does this clip intrests you?";
     document.getElementById("btnArea").innerHTML = "<button onclick = 'movieQuestion1()'>Yes</button><button onclick = 'movieQuestion2()'>No</button>";
@@ -119,11 +117,11 @@ function movieQuestion12(){
 
 }
 
-
 function create(num, name, link) {
     var id = "movie" + num;
     document.getElementById(id).innerHTML = name;
     document.getElementById(id).href = link;
+    document.getElementById("movieList").style.visibility = "visible"
 }
 
 //they like rom coms
