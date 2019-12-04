@@ -11,6 +11,9 @@
   font-family: "URW Chancery L", cursive;
   
 }
+#movieList {
+	visibility: hidden;
+}
 
 #homeButton{
   box-shadow:inset 0px 1px 0px 0px #97c4fe;
