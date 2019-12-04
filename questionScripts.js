@@ -324,43 +324,85 @@ function answer9(){
 
 //they like horror comedy fantasy
 function answer10(){
-
-
-
+    document.getElementById("questionToAsk").style.color = "white";
+    document.body.style.backgroundColor = "#42f572";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "Gremlins", "https://www.youtube.com/embed/XBEVwaJEgaA");
+    create(2, "Army Of Darkness", "https://www.youtube.com/embed/UHZQEtG8xYo");
+    create(3, "Shaun of the Dead", "https://www.youtube.com/embed/LIfcaZ4pC-4");
+    create(4, "Krampus", "https://www.youtube.com/embed/h6cVyoMH4QE");
+    create(5, "Dead Snow: Red vs. Dead", "https://www.youtube.com/embed/e80EOZnHpLQ");
 }
 
 //they like horror supernatural
 function answer11(){
-
-
-
+    document.getElementById("questionToAsk").style.color = "white";
+    document.body.style.backgroundColor = "#42f572";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "It Follows", "https://www.youtube.com/embed/HkZYbOH0ujw");
+    create(2, "IT CHAPTER TWO", "https://www.youtube.com/embed/xhJ5P7Up3jA");
+    create(3, "Sinister", "https://www.youtube.com/embed/_kbQAJR9YWQ");
+    create(4, "It Trailer", "https://www.youtube.com/embed/hAUTdjf9rko");
+    create(5, "The Witch", "https://www.youtube.com/embed/iQXmlf3Sefg");
 }
 
 //they like horror mystery
 function answer12(){
-
-
-
+    document.getElementById("questionToAsk").style.color = "white";
+    document.body.style.backgroundColor = "#42f572";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "mother!", "https://www.youtube.com/embed/XpICoc65uh0");
+    create(2, "Get Out", "https://www.youtube.com/embed/DzfpyUB60YY");
+    create(3, "Orphan", "https://www.youtube.com/embed/2ywOPNNii9w");
+    create(4, "The Invitation", "https://www.youtube.com/embed/gIZgwvtFxMY");
+    create(5, "Triangle", "https://www.youtube.com/embed/9aCdzjCftgs");
 }
 
 //they like horror comedies like scary movie lol
 function answer13(){
-
-
-
+    document.getElementById("questionToAsk").style.color = "white";
+    document.body.style.backgroundColor = "#42f572";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "", "");
+    create(2, "", "");
+    create(3, "", "");
+    create(4, "", "");
+    create(5, "", "");
 }
 
 //they like mystery trillers
 function answer14(){
-
-
-
+    document.getElementById("questionToAsk").style.color = "white";
+    document.body.style.backgroundColor = "#42f572";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "Scary Movie", "https://www.youtube.com/embed/_dktIVAfjzY");
+    create(2, "Happy Death Day", "https://www.youtube.com/embed/1NTaDm3atkc");
+    create(3, "The Final Girls", "https://www.youtube.com/embed/zreNh78kTjg");
+    create(4, "Little Evil", "https://www.youtube.com/embed/jkQjUMVpmZA");
+    create(5, "ZOMBIELAND: DOUBLE TAP", "https://www.youtube.com/watch?v=ZlW9yhUKlkQ");
 }
 
 
 //they didnt like any of the trailer so give them a list of our favorite moveis to check out
 function final(){
-
-
-
+    document.getElementById("questionToAsk").style.color = "white";
+    document.body.style.backgroundColor = "#42f572";
+    document.getElementById("questionToAsk").innerHTML = "Here is a list of movies you may like";
+    document.getElementById("btnArea").style.visibility = 'hidden';
+    document.getElementById("video").src = "";
+    create(1, "Shaolin Soccer", "https://www.youtube.com/embed/6FAaOwNnHTA");
+    create(2, "Jackass", "https://www.youtube.com/embed/KwFZkLucUb0");
+    create(3, "Hannah Montana: The Movie", "https://www.youtube.com/embed/JBeG5D1Nclw");
+    create(4, "The Lizzie McGuire Movie", "https://www.youtube.com/embed/eIm8g4IA_1Y");
+    create(5, "Furious 7", "https://www.youtube.com/embed/yISKeT6sDOg");
 }
